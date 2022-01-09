@@ -14,3 +14,5 @@ The hardware is based on Barbouri's version 2 board, with a few changes.
 In this code there is also a 0-volt calibration and the reference voltage is ignored.
 Instead, three linear curves are calculated. The first one between 0V and 0.4096V, 
 the second between 0.4096V and 3.6864V and the last one between 4.096 and 36.864V. 
+
+This repo includes the modified Adafruit_RGBLCDShield library with additional input I/O.
