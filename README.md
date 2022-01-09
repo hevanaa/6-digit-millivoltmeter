@@ -2,11 +2,15 @@
 Arduino sketch for a 6-digit millivolt meter
 
 This code is derived from the code in the blog post here: 
+
 https://www.barbouri.com/2019/08/07/millivolt-meter-version-2/
 
-Older versions of this code is available here:
+Older versions of this code are available here:
+
 https://www.barbouri.com/2016/05/26/millivolt-meter/
+   
 https://github.com/paulvee/6-digit-milli-voltmeter
+   
 http://www.scullcom.uk/category/projects/millivolt-meter/
 
 The hardware is based on Barbouri's version 2 board, with a few changes.
