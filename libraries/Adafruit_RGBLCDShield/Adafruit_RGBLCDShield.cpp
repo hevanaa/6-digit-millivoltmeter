@@ -423,7 +423,7 @@ void Adafruit_RGBLCDShield::write8bits(uint8_t value) {
 }
 
 uint8_t Adafruit_RGBLCDShield::readButtons(void) {
-  uint8_t reply = 0x2F;
+  uint8_t reply = 0x3F;
 
   for (uint8_t i=0; i<6; i++) {
     reply &= ~((_i2c.digitalRead(_button_pins[i])) << i);
